@@ -1,0 +1,26 @@
+		<div class="span12">
+				<div class="header">
+				<div class="sti">
+						<img src="../LMS/img/lms_pic.png" class="img-rounded"> 
+			</div>
+					
+				</div>
+
+					<div class="alert alert-info"><Strong>Heads Up!</strong>&nbsp;Welcome to our Library
+					
+					
+					
+	
+								
+							<div class="pull-right">
+								<i class="icon-calendar icon-large"></i>
+								<?php
+								$Today = date('y:m:d');
+								$new = date('l, F d, Y', strtotime($Today));
+								echo $new;
+								?>
+							</div>
+					</div>
+				
+					
+				</div>
